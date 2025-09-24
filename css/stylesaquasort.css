@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdfaf6;
+  color: #333;
+}
+
+h1 {
+  color: #006577; /* Un tono café para lo de cookies */
+  font-weight: bold;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #15819c, #034969);
+}
+
+footer {
+  background-color: #4a2c2a;
+  color: #fff;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}

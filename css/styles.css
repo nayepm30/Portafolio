@@ -1,4 +1,29 @@
 header {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/bg.jpg") no-repeat center center/cover;
-}
-
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/bg.jpg") no-repeat center center/cover;
+    }
+    
+    /* Mejoras de responsividad adicionales */
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    @media (max-width: 768px) {
+      .display-4 {
+        font-size: 2rem;
+      }
+      
+      .card-img-top {
+        height: 150px;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .display-4 {
+        font-size: 1.75rem;
+      }
+      
+      .lead {
+        font-size: 1rem;
+      }
+    }
